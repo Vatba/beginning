@@ -5,7 +5,7 @@ sudo tasksel
 sudo apt install mysql-server phpmyadmin perl unzip -y
 sudo mkdir /var/www/html/joomla
 wget https://downloads.joomla.org/cms/joomla3/3-8-5/Joomla_3-8-5-Stable-Full_Package.zip
-unzip -d /var/www/html/joomla Joomla_3-8-5-Stable-Full_Package.zip
+sudo unzip -d /var/www/html/joomla Joomla_3-8-5-Stable-Full_Package.zip
 sudo chown -R www-data:www-data /var/www/html/
 sudo chmod -R 755 /var/www/html/
 sudo systemctl restart apache2.service 
