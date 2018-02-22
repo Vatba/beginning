@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -rvuc /media/krat0s/DBSMXB/ /home/krat0s/DBSMXA/
