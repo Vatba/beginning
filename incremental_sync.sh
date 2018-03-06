@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -rvuc /ruta/origen/ /ruta/destino/
+rsync -rvucP /ruta/origen/ /ruta/destino/
